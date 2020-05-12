@@ -2,21 +2,21 @@
 <html lang="russian">
 
 <head>
-        <meta charset="utf-8">
+            <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
 
-        <title>Pelican test - Articles in the articles category</title>
+        <title>Раз статья</title>
 
         <!-- Bootstrap Core CSS -->
-        <link href="../theme/css/bootstrap.min.css" rel="stylesheet">
+        <link href="./theme/css/bootstrap.min.css" rel="stylesheet">
 
         <!-- Custom CSS -->
-        <link href="../theme/css/clean-blog.min.css" rel="stylesheet">
+        <link href="./theme/css/clean-blog.min.css" rel="stylesheet">
 
         <!-- Code highlight color scheme -->
-            <link href="../theme/css/code_blocks/darkly.css" rel="stylesheet">
+            <link href="./theme/css/code_blocks/darkly.css" rel="stylesheet">
 
 
         <!-- Custom Fonts -->
@@ -31,11 +31,28 @@
             <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
         <![endif]-->
 
-                <meta property="og:locale" content="">
+
+
+        <meta name="description" content="Очень содержательная статья">
+
+        <meta name="author" content="Дюскин Илья">
+
+        <meta name="tags" content="Test">
+
+	                <meta property="og:locale" content="">
 		<meta property="og:site_name" content="Pelican test">
+
+	<meta property="og:type" content="article">
+            <meta property="article:author" content="./author/diuskin-ilia.html">
+	<meta property="og:url" content="./raz-statia.html">
+	<meta property="og:title" content="Раз статья">
+	<meta property="article:published_time" content="2020-05-12 10:00:00+05:00">
+            <meta property="og:description" content="Очень содержательная статья">
+
+            <meta property="og:image" content="./theme/images/post-bg.jpg">
 </head>
 
-<body class="category-articles">
+<body class="article-raz-statia">
 
     <!-- Navigation -->
     <nav class="navbar navbar-default navbar-custom navbar-fixed-top">
@@ -48,14 +65,14 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="../">Pelican test</a>
+                <a class="navbar-brand" href="./">Pelican test</a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
 
-                            <li><a href="../pages/pustaia-stranitsa.html">Пустая страница</a></li>
+                            <li><a href="./pages/nskh.html">НСХ</a></li>
                 </ul>
             </div>
             <!-- /.navbar-collapse -->
@@ -64,12 +81,17 @@
     </nav>
 
     <!-- Page Header -->
-        <header class="intro-header" style="background-image: url('../theme/images/home-bg.jpg')">
+        <header class="intro-header" style="background-image: url('./theme/images/post-bg.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="post-heading">
-                        <h1>Articles in the articles category</h1>
+                        <h1>Раз статья</h1>
+                        <span class="meta">Posted by
+                                <a href="./author/diuskin-ilia.html">Дюскин Илья</a>
+                             on Вт 12 Май 2020
+                        </span>
+                        
                     </div>
                 </div>
             </div>
@@ -80,21 +102,21 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-        <div class="post-preview">
-            <a href="../fish_new-ru.html" rel="bookmark" title="Permalink to Заголовок первой статьи">
-                <h2 class="post-title">
-                    Заголовок первой статьи
-                </h2>
-            </a>
-                <p class="article-summary">
-                    Сильно сокращенное описание, из которого можно понять, зачем вообще
-                </p>
-            <p class="post-meta">Posted by
-                    <a href="../author/anonim.html">Аноним</a>
-                    <a href="../author/apollinarii-afinogenovich-seminikeiskii-dudytchenko.html">Аполлинарий Афиногенович Семиникейский-Дудытченко</a>
-                 on Ср 20 Январь 2016
-            </p>
+    <!-- Post Content -->
+    <article>
+        <h1>Заголовок важной статьи</h1>
+<p>В этой безумно необходимой всем статье есть вот такой список:</p>
+<div class="highlight"><pre><span></span><code><span class="err">- Первый элемент</span>
+<span class="err">- Второй</span>
+<span class="err">- Третий</span>
+</code></pre></div>
+    </article>
+
+        <div class="tags">
+            <p>tags: <a href="./tag/test.html">Test</a></p>
         </div>
+
+    <hr>
 
             </div>
         </div>
@@ -126,13 +148,13 @@
     </footer>
 
     <!-- jQuery -->
-    <script src="../theme/js/jquery.min.js"></script>
+    <script src="./theme/js/jquery.min.js"></script>
 
     <!-- Bootstrap Core JavaScript -->
-    <script src="../theme/js/bootstrap.min.js"></script>
+    <script src="./theme/js/bootstrap.min.js"></script>
 
         <!-- Custom Theme JavaScript -->
-        <script src="../theme/js/clean-blog.min.js"></script>
+        <script src="./theme/js/clean-blog.min.js"></script>
 
 </body>
 
